@@ -19,4 +19,4 @@ app.include_router(router)
 
 @app.get("/")
 def home():
-    return {" message": "Excel Analysis API is running"}
+    return {" message": "Excel Analysis API is corectly running"}
